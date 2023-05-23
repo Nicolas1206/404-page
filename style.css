@@ -39,6 +39,7 @@ li a {
 
 h1 {
     font-size: 5em;
+    transition: 0.5s;
 }
 
 footer {
@@ -50,4 +51,24 @@ footer {
 
 .mpage {
     margin-top: 200px;
+}
+
+.mygithub {
+    background-color: #a5b4fc;
+    color: #1f2039;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 10px 15px;
+    position: relative;
+    top: 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+h1:hover {
+    color: white;
+}
+
+.mygithub:hover {
+    background-color: white;
 }
